@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\clause31">
+      <UniqueIdentifier>{bcf4c634-2c4f-4840-9c13-4e1d99a04ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\clause31\Handle Class">
+      <UniqueIdentifier>{0c786c5b-3061-49ae-867b-b3f287d86669}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\clause31\Interfeace Class">
+      <UniqueIdentifier>{486fec48-306d-4104-86e0-6ab7ac2aad4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\clause35">
+      <UniqueIdentifier>{6fed0e41-86f6-4443-8e20-c31b1ddd627e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\clause35\NVI">
+      <UniqueIdentifier>{c4e68133-b5b5-47a5-b6f5-a3caa37e63f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clause25.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clause29.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Person.h">
+      <Filter>头文件\clause31\Handle Class</Filter>
+    </ClInclude>
+    <ClInclude Include="PersonImpl.h">
+      <Filter>头文件\clause31\Handle Class</Filter>
+    </ClInclude>
+    <ClInclude Include="personfwd.h">
+      <Filter>头文件\clause31\Handle Class</Filter>
+    </ClInclude>
+    <ClInclude Include="Person_Interface.h">
+      <Filter>头文件\clause31\Interfeace Class</Filter>
+    </ClInclude>
+    <ClInclude Include="RealPerson_interface.h">
+      <Filter>头文件\clause31\Interfeace Class</Filter>
+    </ClInclude>
+    <ClInclude Include="NVI.h">
+      <Filter>头文件\clause35\NVI</Filter>
+    </ClInclude>
+    <ClInclude Include="strategy.h">
+      <Filter>头文件\clause35</Filter>
+    </ClInclude>
+    <ClInclude Include="classic.h">
+      <Filter>头文件\clause35</Filter>
+    </ClInclude>
+    <ClInclude Include="clause38.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clause44.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clause45.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clause47.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="clause49.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PersonImpl.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

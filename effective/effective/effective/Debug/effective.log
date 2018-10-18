@@ -1,0 +1,55 @@
+﻿  main.cpp
+f:\learning\c++\effective\effective\effective\strategy.h(100): warning C4244: “return”: 从“int”转换到“float”，可能丢失数据
+f:\learning\c++\effective\effective\effective\clause49.h(23): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+f:\learning\c++\effective\effective\effective\clause49.h(45): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+f:\learning\c++\effective\effective\effective\clause49.h(68): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+  f:\learning\c++\effective\effective\effective\clause49.h(72): note: 参见对正在编译的 类 模板 实例化 "clause49::TMPhandler::NewHandlerSupport<T>" 的引用
+f:\learning\c++\effective\effective\effective\clause49.h(85): warning C4290: 忽略 C++ 异常规范，但指示函数不是 __declspec(nothrow)
+f:\visual studio\other\vc\tools\msvc\14.13.26128\include\type_traits(16707566): warning C4244: “return”: 从“float”转换到“int”，可能丢失数据
+  f:\visual studio\other\vc\tools\msvc\14.13.26128\include\functional(16707566): note: 参见对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<float(__cdecl *&)(short),_Ty>(float (__cdecl *&)(short),_Ty &&)”的引用
+          with
+          [
+              _Rx=int,
+              _Ty=std::ios_base::iostate
+          ]
+  f:\visual studio\other\vc\tools\msvc\14.13.26128\include\functional(16707566): note: 参见对正在编译的函数 模板 实例化“_Rx std::_Invoker_ret<_Rx,false>::_Call<float(__cdecl *&)(short),_Ty>(float (__cdecl *&)(short),_Ty &&)”的引用
+          with
+          [
+              _Rx=int,
+              _Ty=std::ios_base::iostate
+          ]
+  f:\visual studio\other\vc\tools\msvc\14.13.26128\include\functional(15732480): note: 编译 类 模板 成员函数 "int std::_Func_impl_no_alloc<float (__cdecl *)(short),_Ret,int>::_Do_call(int &&)" 时
+          with
+          [
+              _Ret=int
+          ]
+  f:\visual studio\other\vc\tools\msvc\14.13.26128\include\functional(269): note: 参见对正在编译的 类 模板 实例化 "std::_Func_impl_no_alloc<float (__cdecl *)(short),_Ret,int>" 的引用
+          with
+          [
+              _Ret=int
+          ]
+  f:\visual studio\other\vc\tools\msvc\14.13.26128\include\functional(520): note: 参见对正在编译的 类 模板 实例化 "std::_Is_large<_Impl>" 的引用
+  f:\visual studio\other\vc\tools\msvc\14.13.26128\include\functional(709): note: 参见对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,int>::_Reset<float(__cdecl *)(short)>(_Fx &&)”的引用
+          with
+          [
+              _Ret=int,
+              _Fx=float (__cdecl *)(short)
+          ]
+  f:\visual studio\other\vc\tools\msvc\14.13.26128\include\functional(709): note: 参见对正在编译的函数 模板 实例化“void std::_Func_class<_Ret,int>::_Reset<float(__cdecl *)(short)>(_Fx &&)”的引用
+          with
+          [
+              _Ret=int,
+              _Fx=float (__cdecl *)(short)
+          ]
+  f:\learning\c++\effective\effective\effective\strategy.h(82): note: 参见对正在编译的函数 模板 实例化“std::function<int (int)>::function<float(__cdecl *)(short),void>(_Fx)”的引用
+          with
+          [
+              _Fx=float (__cdecl *)(short)
+          ]
+  f:\learning\c++\effective\effective\effective\strategy.h(82): note: 参见对正在编译的函数 模板 实例化“std::function<int (int)>::function<float(__cdecl *)(short),void>(_Fx)”的引用
+          with
+          [
+              _Fx=float (__cdecl *)(short)
+          ]
+main.obj : error LNK2019: 无法解析的外部符号 "public: virtual void __thiscall A::fun(void)" (?fun@A@@UAEXXZ)，该符号在函数 "public: virtual __thiscall A::~A(void)" (??1A@@UAE@XZ) 中被引用
+F:\learning\c++\effective\effective\Debug\effective.exe : fatal error LNK1120: 1 个无法解析的外部命令
