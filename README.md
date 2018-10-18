@@ -1,2 +1,2 @@
-# effective-c-
+# effective-c++
 effective c++ practice
